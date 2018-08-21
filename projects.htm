@@ -34,10 +34,21 @@ table#t01 th	{
 <body>
 <p>
 <h3>Projects</h3>
-<b>Blog Creation with NoSQL database and Bottle Framework</b> <br>
+<a href="https://github.com/sridhar086/Distributed-File-System-Google-Replica"><h4>Building a Distributed, Replicated, and Fault Tolerant File System - Java</h4></a><br>
+- Implemented a Distributed File System in Java. The system comprises of Controller, Chunk Server & Client.<br>
+- The files are stored in chunks of 64KB with a replication level of 3. The system adds fault tolerance by
+constantly checking and fixing errors.<br>
+
+<a href="https://github.com/sridhar086/Scalable-Server-Design-Using-Thread-Pools"><h4>Scalable Server design using Thread pools and load balancing on the server - Java</h4></a><br>
+- Designed and implemented Threadpools to handle load on the server, without using 3rdparty libraries.<br>
+- Observed that mean per client throughput X No of active connections equals server throughput. Std.<br>
+- Deviation of per client throughput is low.<br>
+
+
+<h4>Blog Creation with NoSQL database and Bottle Framework</h4><br>
 – Create Schema for storing articles, comments, username, and password in MongoDB. Pymongo is used to access MongoDB.<br>
 – Bottle framework and templates are used for presenting it on web. Text based indexes were created to search based on tags. <br>
-<b>Twitter Sentiment Analysis </b>
+<h4>Twitter Sentiment Analysis </h4>
 – Used Python and OAuth library to get a sample set of tweets. Map reduce is used for processing.<br>
 – Calculate the sentiment score for each tweet by comparing the individual words with the pre-computed sentiment scores. Tweets in 
 English language alone are considered.<br>
@@ -46,14 +57,14 @@ English language alone are considered.<br>
 
 
 
-<b>Training Support Vector Machine for Spam E-Mail Classification</b> <br>
+<h4>Training Support Vector Machine for Spam E-Mail Classification</h4> <br>
 –Pre-processing of e-mails and word stemming is done. Words occurring more than 100 times are considered.<br>
 –Features from email are extracted into a vector. The SVM is trained and gets a 99.8% training accuracy and 98.5% test accuracy.<br>
-<b>Anomaly  Detection and Recommender Systems</b><br>
+<h4>Anomaly  Detection and Recommender Systems</h4><br>
 –Implement Gaussian distribution to detect anomalous behavior of server. F1 score is used to choose best threshold value.<br>
 –Collaborative filtering learning algorithm is applied to predict the movie ratings. Used Octave programming language.<br>
 
-<b>K-Means Clustering and Dimensionality reduction</b><br>
+<h4>K-Means Clustering and Dimensionality reduction</h4><br>
 Image compression with K-means: <br>
 Reduce the number of colors and cluster them into 16 colors.<br>
 Cluster Centroids are computed and 16 colors are replaces the pixels in original image. Image is compressed by a factor of 6.<br>
@@ -62,27 +73,27 @@ Feature vectors of the data set are normalized. Principal Component Analysis is 
 The data set X is projected onto the K principal components to create reduced dimensional dataset Z.Also the approximate data is recovered from the reduced dimensions.<br>
 This is applied is applied to faces dataset in which has a 32x32 matrix corresponding to original dataset. It is then converted to 100 dimensions (10x reduction) and reconstructed back.<br>
 
-<b>Recognition of Handwritten digits(0-9) using Logistic Regression & Neural networks</b><br>
+<h4>Recognition of Handwritten digits(0-9) using Logistic Regression & Neural networks</h4><br>
 –Implemented a basic one-vs-all classifier with multiple regularized logistic regression classifiers. <br>
 –Implemented a Neural network scheme that uses back propagation to learn the parameters and use feedforward propagation to predict the digits. 
 Computed the performance by measuring accuracy for both models. Octave was used for implementation.<br>
-<b>Estimating PageRank Values of Wikipedia Articles using MapReduce </b><br>
+<h4>Estimating PageRank Values of Wikipedia Articles using MapReduce </h4><br>
 –Implement page rank algorithm to rank the internal Wikipedia articles with Wiki data dump.<br>
 –Analyze the estimated the page rank values under ideal condition as well as for dead-end articles.<br>
 –Used Java map reduce and Hadoop framework for this.<br>
-<b>Packet Analysis and Invalid Packet Capture </b><br>
+<h4>Packet Analysis and Invalid Packet Capture </h4><br>
 –Generate packets using Google Ostinato and inject in eth/wlan interface.<br>
 –Used NQUEUE (Libnetfilter library) to analyze & capture packet<br>
 
-<b>Simulation of Network Interface Card (NIC) with offload capability </b><br>
+<h4>Simulation of Network Interface Card (NIC) with offload capability </h4><br>
 –Implementation involves message & packet Buffers. Message arrival rate is defined by Poisson process. Java programming language was used.<br>
 –Calculate throughput, efficiency and packet drop rate for each preset buffer size. <br>
-<b>Content Searching in a Distributed Application layer Network – Structured & Unstructured </b><br>
+<h4>Content Searching in a Distributed Application layer Network – Structured & Unstructured </h4><br>
 –Implemented Unstructured and Structured (Chord Algorithm) P2P network and simulated on 80 nodes. Java is used for implementation of both structured and unstructured network.<br>
 –Structured network construction and file searching based on TCP protocol. Unstructured network uses UDP as Transfer Unit.<br>
 –Computed Std. Deviation of finger table size & per query cost in terms of latency, hops for structured network.<br>
 –Computed Std. Deviation of node degree, packets, latency, hops for all the nodes and plotted CDF for unstructured network.<br>
-<b>Undergraduate Project - Intelligent home automation system – Non-conventional </b><br>
+<h4>Undergraduate Project - Intelligent home automation system – Non-conventional </h4><br>
 –Bluetooth controlled central microcontroller & Utility microcontrollers connected through RFId.<br>
 –Sensors to relay information from surrounding environment & solar charged battery powers up the appliances.<br>
 
