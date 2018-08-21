@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sridhar's</title>
+  <meta charset="UTF-8">
+
+<style>
+  body {background-color:DarkSeaGreen ;margin:30px;font-family:cambria}
+  h1   {color:black;padding:10px;text-align:center}
+  p    {color:black;font-size:18px;}
+  a:link{color:blue; background-color:transparent; text-decoration:}
+  
+  table, th, td{
+  border: 1px solid DarkSeaGreen;
+  text-align: center;
+  }
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+
+
+</style>
+</head>
+
+<body>
+<p>
+<h3>Projects</h3>
+<b>Blog Creation with NoSQL database and Bottle Framework</b> <br>
+– Create Schema for storing articles, comments, username, and password in MongoDB. Pymongo is used to access MongoDB.<br>
+– Bottle framework and templates are used for presenting it on web. Text based indexes were created to search based on tags. <br>
+<b>Twitter Sentiment Analysis </b>
+– Used Python and OAuth library to get a sample set of tweets. Map reduce is used for processing.<br>
+– Calculate the sentiment score for each tweet by comparing the individual words with the pre-computed sentiment scores. Tweets in 
+English language alone are considered.<br>
+– Derive sentiment for new words using score of the tweet. Find frequency of each word, happiest state 
+& top ten hash tags. The user field is used to get the “state” of the user.<br>
+
+
+
+<b>Training Support Vector Machine for Spam E-Mail Classification</b> <br>
+–Pre-processing of e-mails and word stemming is done. Words occurring more than 100 times are considered.<br>
+–Features from email are extracted into a vector. The SVM is trained and gets a 99.8% training accuracy and 98.5% test accuracy.<br>
+<b>Anomaly  Detection and Recommender Systems</b><br>
+–Implement Gaussian distribution to detect anomalous behavior of server. F1 score is used to choose best threshold value.<br>
+–Collaborative filtering learning algorithm is applied to predict the movie ratings. Used Octave programming language.<br>
+
+<b>K-Means Clustering and Dimensionality reduction</b><br>
+Image compression with K-means: <br>
+Reduce the number of colors and cluster them into 16 colors.<br>
+Cluster Centroids are computed and 16 colors are replaces the pixels in original image. Image is compressed by a factor of 6.<br>
+Dimensionality reduction - Application:<br>
+Feature vectors of the data set are normalized. Principal Component Analysis is done to reduce the dimensions. Covariance matrix is computed and singular value decomposition is applied.<br> 
+The data set X is projected onto the K principal components to create reduced dimensional dataset Z.Also the approximate data is recovered from the reduced dimensions.<br>
+This is applied is applied to faces dataset in which has a 32x32 matrix corresponding to original dataset. It is then converted to 100 dimensions (10x reduction) and reconstructed back.<br>
+
+<b>Recognition of Handwritten digits(0-9) using Logistic Regression & Neural networks</b><br>
+–Implemented a basic one-vs-all classifier with multiple regularized logistic regression classifiers. <br>
+–Implemented a Neural network scheme that uses back propagation to learn the parameters and use feedforward propagation to predict the digits. 
+Computed the performance by measuring accuracy for both models. Octave was used for implementation.<br>
+<b>Estimating PageRank Values of Wikipedia Articles using MapReduce </b><br>
+–Implement page rank algorithm to rank the internal Wikipedia articles with Wiki data dump.<br>
+–Analyze the estimated the page rank values under ideal condition as well as for dead-end articles.<br>
+–Used Java map reduce and Hadoop framework for this.<br>
+<b>Packet Analysis and Invalid Packet Capture </b><br>
+–Generate packets using Google Ostinato and inject in eth/wlan interface.<br>
+–Used NQUEUE (Libnetfilter library) to analyze & capture packet<br>
+
+<b>Simulation of Network Interface Card (NIC) with offload capability </b><br>
+–Implementation involves message & packet Buffers. Message arrival rate is defined by Poisson process. Java programming language was used.<br>
+–Calculate throughput, efficiency and packet drop rate for each preset buffer size. <br>
+<b>Content Searching in a Distributed Application layer Network – Structured & Unstructured </b><br>
+–Implemented Unstructured and Structured (Chord Algorithm) P2P network and simulated on 80 nodes. Java is used for implementation of both structured and unstructured network.<br>
+–Structured network construction and file searching based on TCP protocol. Unstructured network uses UDP as Transfer Unit.<br>
+–Computed Std. Deviation of finger table size & per query cost in terms of latency, hops for structured network.<br>
+–Computed Std. Deviation of node degree, packets, latency, hops for all the nodes and plotted CDF for unstructured network.<br>
+<b>Undergraduate Project - Intelligent home automation system – Non-conventional </b><br>
+–Bluetooth controlled central microcontroller & Utility microcontrollers connected through RFId.<br>
+–Sensors to relay information from surrounding environment & solar charged battery powers up the appliances.<br>
+
+</p>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84279005-2', 'auto');
+  ga('require', 'linkid');
+  ga('send', 'pageview');
+
+</script>	
+</body>
+</html>
