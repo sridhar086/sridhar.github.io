@@ -57,43 +57,81 @@ table#t01 th	{
 <p>
 <h2>Sridhar Ramasamy</h2>
 Sr. Software Engineer<br>
-Broomfield CO 80526<br>
-Phone: +1-608-695-6561<br>
+Greater Seattle Area<br>
+Phone: <img src="phone.PNG" style="width:170px;height:20px" ><br>
 E-mail: <img src="email2.PNG" style="width:180px;height:25px" ><br>
-<a href = "https://github.com/sridhar086"> <b> GITHUB </b> </a> <br>
+<a href = "https://github.com/sridhar086"> <b> Link to Github </b> </a> <br>
 
 </p>
 
 <p>
 <h3>Areas of Interest:</h3>
-Distributed Systems, Big data, Machine learning, Databases(SQL/NoSQL), Computer Networking and Security
+Distributed Systems, Big data, Databases(SQL/NoSQL), Computer Networking and Security
 </p>
 
 <p>
 <h3>Technical Skills</h3>
 <b>Programming Language:</b> <br>
-Java, Python, C#/.Net, C/C++, R, JavaScript, Octave, MATLAB <br>
-<b>Libraries:</b> <br>
-Java - Java-XML - DOM,log4j , Python -Pandas, NumPy, SciPy, Scikitlearn, C/C++ - GNU Multi-Precision library <br>
-<b>Operating Platform:</b> <br>
-Linux(Debian, Fedora), Windows(7,8,10) <br>
+Scala, Java, Python, C#/.Net, Octave, MATLAB <br>
 <b>Software Platforms/Databases:</b> <br>
-Amazon Web Services(AWS), Apache Hadoop, Apache Pig, Apache Hive, MS SQL Server, MongoDB, MySQL, Git, Latex(Miktek)<br>
+Apache Spark, AWS/OCI, Apache Hadoop, Apache Hive, Oracle SQL, Postgres, Cassandra<br>
 <b>Software Tools:</b><br>
-Git, Jenkins, Docker, Agile methodology<br>
-<b>Software IDE</b><br>
-Visual Studio, NetBeans, Eclipse, Liclipse, Spyder <br>
+Kubernetes, Git, Docker<br>
 </p>
 
 
 
 <p>
 <h3>Work Experience:</h3>
+<h4>Sr Software Engineer &emsp; Oracle America Inc, Bellevue WA &emsp; Sep 2018 -  Current <br></h4>
+<b>Project: Advertising Data Pipelines (March 2023 - Current):</b>><br>
+<ul>
+  <li>Handle voluminous Kafka stream data with variety of records and make it available for the org. to consume.</li>
+  <li>The data pipelines receive 1000’s of records every minute and are processed in OCI spark dataflow.</li>
+  <li>The data is made available in both AWS and OCI, while processing happens only in OCI.</li>
+  <li>Migrating our workflow from AWS to OCI, setting up new orchestration of pipeline using airflow/argo.</li>
+</ul>
+<b>Project: Data API/Data Collaboration Platform (July 2021 – March 2023):</b><br>
+<ul>
+  <li>Designed model to facilitate data storage, access, and enforce data lease contracts.</li>
+  <li>Data API defines schema, transformation and joins across schema, source and destination location.</li>
+  <li>Designed API for data model, entities, and its relationships & persistence.</li>
+  <li>Usage of IAM roles/policy to allow limited access to a leased data location and enforce contracts and TTL.</li>
+  <li>Designed and built security model for the Data Lease Service with RSA based auth and auto JWT generation.</li>
+  <li>Integrated with other systems to effectively manage source data and lease data according to contracts.</li>
+</ul>
+<b>Project: User Consent Management System (July 2020 – July 2021):</b><br>
+<ul>
+  <li>Opt-out data auditor will be capable of keeping a register of dataset, export opt-outs and trigger alerts to dataset owners and generate periodic reports and keep counts.</li>
+  <li>Load testing the service using Apache JMeter for an endpoint that needs to capture few million records.</li>
+  <li>Productionizing Apache Pulsar cluster with TLS certs and setting it up on OCI Kubernetes.</li>
+</ul>
+<b>Project: Dynamic Data Packaging and Delivery Project (Sep 2018 – July 2020):</b><br>
+<ul>
+  <li>Designed and implemented a new data packaging & delivery project to replace an existing batch processing.</li>
+  <li>The project saves about $2M/year in computing cost, brought down compute time from 96 hours to 14 hours.</li>
+  <li>The different supporting pieces are - Data selection, Data Matching, Data Transformation and Packaging, Data Encryption, Data Compression and Data Delivery.</li>
+  <li>Automatically deliver reports and notify the stake holders, clients, and dev team about the deliveries.</li>
+  <li>Interacted with the Product team gathering requirement for the system & drafting functional specification. Train the operations team with the new system and oversee on-time resolutions of support tickets.</li>
+</ul>
+<b>Tech Stack: Java/Spring Boot/Kubernetes.</b><br>
+<b>Data Processing: Apache Spark/Qubole/AWS.</b><br>
+<b>Job Orchestration: Luigi/Apache Airflow.</b><br>
+Migration of all our CI/CD pipelines from Jenkins to Gitlab. Replicate all the functionalities of existing pipeline. Perform unit testing and integration testing to seamlessly integrate with other existing systems.<br>
+Coordinate with other teams/pods to enhance design/development and support cross-team projects.<br>
+
 <h4>Software Developer &emsp; Red Hen Systems, Fort Collins CO &emsp; Nov 2016 -  Current <br></h4>
-- Currently leading a project - A C#/.Net application to collect details (on the fly) and publish (when possible) it on Database.<br>
-- Create new Dashboard to view the Data and facility to create PDFs, CSVs when needed. <br>
+– Led a Field Report creation project for Anadarko on C#/.Net to view and publish survey data.<br>
+– The paper-based forms were converted to digital application based on a .Net Windows platform capable of data
+entry, sketching with stylus or touch pad and attaching photos.<br>
+– The tool is capable of formatting the data in the pdf, resize images/customer sketch, publish data to a database
+and send an email with the pdf as an attachment.<br>
+– Responsible for development of IsWhere, Media Geo-Tagger softwares - C#/.Net/WPF/Forms.<br>
+– Introduced online licensing & management system for all our software products reducing manual effort.<br>
+– Improved the software by adding tools to clip videos, modified UI, provided multiple file compatibility.<br>
+– Batch automation process for ETL workflow – Data extraction, processing, analytics, and delivery.<br>
+– Worked on GIS projects for various oil & natural gas companies, universities, and government agencies.<br>
 – Develop new features and maintain IsWhere and Media Geo-Tagger software, based on C#/.Net.<br>
-– Introduced online licensing & management system for software products.<br>
 – Batch file automation of video files copying, decoding, creation of CSVs/XMLs, ArcPy processing (.shp). Reduced time taken from 2 working days to just 4 hours which is a 200x improvement.<br>
 – Introduced support for Flexible & Interoperable Data Transfer (.fit) files for Garmin VIRB’s.<br>
 – Optimization of Python codes to process several hundred thousand spatially referenced data points for data analysis of methane PPM, wind vector data to create KMLs. <br>
@@ -155,7 +193,7 @@ Communication Engineering, Digital Logic Circuits, Linear Integrated Circuits an
 
 
 <h3>Links:</h3>
-1. <a href = "Resume.pdf">Resume</a><br>
+1. <a href = "Sridhar-Ramasamy.pdf">Resume</a><br>
 2. <a href="http://www.cnrl.colostate.edu/pages/people.html">CNRL people</a> <br>
 3. <a href="http://www.engr.colostate.edu/ece/">ECE CSU</a><br>
 4. <a href = "https://github.com/sridhar086">Github</a><br>
@@ -174,10 +212,11 @@ Communication Engineering, Digital Logic Circuits, Linear Integrated Circuits an
 <!-- hitwebcounter Code START -->
 <a href="http://www.hitwebcounter.com" target="_blank">
 <img src="http://hitwebcounter.com/counter/counter.php?page=6427580&style=0009&nbdigits=6&type=ip&initCount=0" title="." Alt="."   border="0" >
-</a>                                        <br/>
-                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="My Traffic Estimate" 
-                                        target="_blank" style="font-family: Geneva, Arial, Helvetica; 
-                                        font-size: 11px; color: #85948C; text-decoration: underline ;"><em>My Traffic Estimate                                        </em>
+</a><br/>
+<!-- hitwebcounter.com -->
+<a href="http://www.hitwebcounter.com" title="My Traffic Estimate"
+target="_blank" style="font-family: Geneva, Arial, Helvetica; font-size: 11px; color: #85948C; text-decoration: underline ;">
+  <em>My Traffic Estimate</em></a>
 
 
 <script>
